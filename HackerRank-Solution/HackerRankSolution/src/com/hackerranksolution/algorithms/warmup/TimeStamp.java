@@ -23,9 +23,9 @@ public class TimeStamp {
              System.out.println(hour+":"+minutes+":"+secounds);
          }else{
              if(!hour.equals("12")){
-                 int h = Integer.parseInt(hour); //10
-                 h = h +12; //10+12 = 23
-                 hour =""+h; // 
+                 int h = Integer.parseInt(hour); 
+                 h = h +12; 
+                 hour =""+h; 
              }
              System.out.println(hour+":"+minutes+":"+secounds);
          }
