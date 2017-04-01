@@ -10,7 +10,6 @@ public class TimeStamp {
     public static void main(String[] args) {
          Scanner in = new Scanner(System.in);
          String time = in.next();
-         
          String listTime[] = time.split(":");
          String hour = listTime[0];
          String minutes = listTime[1];
