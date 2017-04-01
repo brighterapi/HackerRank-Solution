@@ -1,7 +1,6 @@
 package com.hackerranksolution.algorithms.Implementation;
 
 import java.util.Scanner;
-
 /**
  *
  * @author Milind
@@ -35,9 +34,5 @@ public class AppleandOrange {
 		}
 		System.out.println(appleCount);
 		System.out.println(oragngeCount);
-		
-		
-		
-
 	}
 }
