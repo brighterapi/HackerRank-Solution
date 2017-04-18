@@ -16,15 +16,14 @@ public class DivisibleSumPairs {
         for (int a_i = 0; a_i < n; a_i++) {
             a[a_i] = in.nextInt();
         }
+        
         int result = 0;
         for (int i = 0; i < a.length; i++) {
             for (int j = i; j < a.length; j++) {
                 if (i != j && (a[i] + a[j]) % k == 0) {
                     result++;
                 }
-
             }
-
         }
         System.out.println(result);
     }
