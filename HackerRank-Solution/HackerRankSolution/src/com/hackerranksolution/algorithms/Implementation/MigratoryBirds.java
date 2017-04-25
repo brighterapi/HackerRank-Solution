@@ -11,6 +11,7 @@ import java.util.Scanner;
  * @author Milind
  */
 public class MigratoryBirds {
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -36,6 +37,5 @@ public class MigratoryBirds {
         } else {
             System.out.println("0");
         }
-
     }
 }
