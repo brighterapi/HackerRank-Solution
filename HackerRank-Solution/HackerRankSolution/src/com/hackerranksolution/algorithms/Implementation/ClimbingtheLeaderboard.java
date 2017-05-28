@@ -24,26 +24,26 @@ class ClimbingtheLeaderboard {
             scores[scores_i] = in.nextInt();
             scortedSet.add(scores[scores_i]);
         }
-        
+
         int m = in.nextInt();
         int[] alice = new int[m];
         for (int alice_i = 0; alice_i < m; alice_i++) {
             alice[alice_i] = in.nextInt();
         }
-        
+
         List<Integer> sortedList = new ArrayList<Integer>(scortedSet);
-        Collections.sort(sortedList,Collections.reverseOrder());
-   
+        Collections.sort(sortedList, Collections.reverseOrder());
+
         int ind;
         for (int i = 0; i < m; i++) {
-            ind = Collections.binarySearch(sortedList, alice[i],Collections.reverseOrder());
-            if(ind < 0){
+            ind = Collections.binarySearch(sortedList, alice[i], Collections.reverseOrder());
+            if (ind < 0) {
                 ind = Math.abs(ind);
-            }else{
+            } else {
                 ind++;
             }
             System.out.println(ind);
         }
     }
-    
+
 }
