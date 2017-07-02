@@ -18,13 +18,13 @@ public class SockMerchant {
         }
         Arrays.sort(c);
         int total = 0;
-        for(int i=0;i<n-1;i++){
-            if(i<n && c[i]==c[i+1]){
+        for (int i = 0; i < n - 1; i++) {
+            if (i < n && c[i] == c[i + 1]) {
                 total++;
-                i = i+1;
+                i = i + 1;
             }
         }
         System.out.println(total);
-    
+
     }
 }
