@@ -2,7 +2,9 @@ package com.hackerranksolution.datastructure.arrays;
 
 
 import java.util.Scanner;
-
+/**
+ * @author BrighterAPI
+ */
 public class HourGlass {
 
     public static void main(String[] args) {

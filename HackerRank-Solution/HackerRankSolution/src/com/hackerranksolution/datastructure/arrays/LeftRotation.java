@@ -1,7 +1,10 @@
 package com.hackerranksolution.datastructure.arrays;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author BrighterAPI
+ */
 public class LeftRotation {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
