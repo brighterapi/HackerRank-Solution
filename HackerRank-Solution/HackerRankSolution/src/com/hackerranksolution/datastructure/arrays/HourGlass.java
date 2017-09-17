@@ -2,6 +2,7 @@ package com.hackerranksolution.datastructure.arrays;
 
 
 import java.util.Scanner;
+
 /**
  * @author BrighterAPI
  */
