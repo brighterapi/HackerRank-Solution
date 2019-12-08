@@ -1,4 +1,4 @@
-package com.hackerranksolution.Interviewkit.warmup;
+package com.hackerranksolution.interviewkit.warmup;
 
 import java.io.BufferedReader;
 import java.io.IOException;
